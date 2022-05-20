@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodSmell</title>
+    <style>
+
+        *   {
+            margin: 0px;
+        }
+        body    {
+            background-color: #9BF88D;
+        }
+
+        h1  {
+            border: 1px solid black;
+            width: 400px;
+            padding: 7px 0px;
+            box-shadow: 1px 1px 2px black;
+            color: #09791b;
+            font-weight: bolder;
+            text-shadow: 1px 1px 2px;
+            background-color: #7CD98D;
+            text-align: center;
+          
+        }
+
+        h2  {
+            border: 1px solid black;
+            width: 300px;
+            padding: 7px 0px;
+            box-shadow: 1px 1px 2px black;
+            display: inline-block;
+            padding-top: 50px;
+            font-weight: 200;
+            background-color: #95F0C0;
+           
+           
+        }
+
+        #descricaoproduto   {
+            background-image: linear-gradient(to right,#57F0B5, #43D975);
+        }
+
+        #produto    {
+            background-color: #7CF88B;
+        }
+
+        #carrossel  {
+            width: 400px;
+        }
+
+        img {
+            width: 80px;
+        }
+        .imagemtopo {
+            border-radius: 50%;
+        }
+
+
+        #divBusca{
+            background-color:#2F4F4F;
+            border:solid 1px;
+            border-radius:15px;
+            width:300px;
+            margin-top: 20px;
+          }
+          
+          #txtBusca{
+            float:left;
+            background-color:transparent;
+            padding-left:5px;
+            font-style:italic;
+            font-size:18px;
+            border:none;
+            height:32px;
+            width:260px;
+          }
+        
+          #btnBusca {
+              width: 30px;
+          }
+
+          #tabela3    {
+            margin-top: 50px;
+            margin-left: auto;
+          
+            
+        }
+        #tabela3 td   {
+            text-align: center;
+            font-weight: 600;
+            border-radius: 15px;
+        }
+        #tabela3 img    {
+            border: 1px solid black;
+            width: 80px;
+            height: 80px;
+        }
+        #descricaoproduto   {
+            border: 1px solid black;
+            width: 600px;
+        }
+        
+        #produto    {
+            width: 100px;
+            border: 1px solid black;
+            text-align: center;
+            height: 50px;
+        }
+
+        #redesocial {
+            margin-left: auto;
+        }
+        #carrinho      {
+            width: 100px;
+        }
+          
+
+       
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+            <marquee behavior="|" direction="left">
+                <h1>GoodSmell</h1>
+            </marquee>
+
+        <img src="https://o.remove.bg/downloads/7f718b4c-49e7-4aaf-bdc1-03646e672da1/fotoperfil-removebg-preview.png" 
+        alt="Foto de ferfil" class="imagemtopo">
+
+        <h2>Descrição do perfil</h2>
+
+        <h2 id="carrossel">Carrossel</h2>
+
+        <h2>Busca no carrinho</h2>
+
+            <img src="https://o.remove.bg/downloads/02ef4788-9632-4b1b-8aef-96722a54b03b/carrinho_de_compras-removebg-preview.png" 
+            id="carrinho" class="imagemtopo">
+
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                <a href=""><img src="https://o.remove.bg/downloads/cbdfde82-c464-4392-8b8e-c5c15e4a079a/lupa-removebg-preview.png" id="btnBusca" alt="Buscar"/></a>
+              </div>
+
+
+              <div id="tabela3">
+       
+                <table>
+                    <tr>
+                        <td id="descricaoproduto">Shampoo Kids</td>
+                        <td id="produto">R$ 15,00</td>
+                        <td><img src="https://araujo.vteximg.com.br/arquivos/ids/4150943-1000-1000/07891024174135_1.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td id="descricaoproduto">Hidratante-O Boticario</td>
+                        <td id="produto">R$ 19,99</td>
+                        <td><img src="https://m.media-amazon.com/images/I/71U2kFz1r7L._AC_SY741_.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td id="descricaoproduto">Perfume barco- Nature</td>
+                        <td id="produto">R$ 150,00</td>
+                        <td><img src="https://carrefourbr.vtexassets.com/arquivos/ids/1542414/MP11852449_1.jpg?v=637277045457230000" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td id="descricaoproduto">Batom-Marykay</td>
+                        <td id="produto">R$ 50,00</td>
+                        <td><img src="https://m.media-amazon.com/images/I/51lYSjFRd8L._AC_SY550_.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td id="descricaoproduto">Frauda Baby- Jumbinho</td>
+                        <td id="produto">R$ 39,90</td>
+                        <td><img src="https://s3-sa-east-1.amazonaws.com/bluesoft-erp/dapraca/ecommerce/produtos/fotos/d2f8229e-3fbe-4ac5-99b3-d70897ddd75d/foto_large.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td id="descricaoproduto">4711 Eau de Cologne 800ml</td>
+                        <td id="produto">R$ 300,50</td>
+                        <td><img src="https://images-americanas.b2w.io/produtos/3848942118/imagens/perfume-unissex-4711-original-eau-de-cologne-800-ml-1-amostra-de-fragrancia/3848942126_1_large.jpg" alt=""></td>
+                    </tr>
+                </table>
+    </div>
+    </center>
+    <br>
+
+    <table id="redesocial">
+        <tr>
+            <td><img src="https://imagepng.org/wp-content/uploads/2017/08/instagram-icone-icon-3.png" alt="Foto instagram"></td>
+            <td><img src="https://i1.wp.com/multarte.com.br/wp-content/uploads/2018/11/whatsapp-logo-icone-fundo-transparente.png?fit=1527%2C1563&ssl=1" alt="Foto Whatsapp"></td>
+            <td><img src="https://i2.wp.com/www.multarte.com.br/wp-content/uploads/2019/03/logo-facebook-png2.png?w=696&ssl=1" alt="Foto facebook"></td>
+            <td><img src="https://o.remove.bg/downloads/f8e90916-1446-4754-82fe-1a2bbb496053/image-removebg-preview.png" alt="Foto do twitter"></td>
+        </tr>
+    </table>
+
+  
+        
+
+    </header>
+</body>
+</html>
