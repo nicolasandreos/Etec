@@ -31,7 +31,7 @@
             font-size: 40px;
         }
 
-        #topo > input,h1    {
+        #topo > input    {
             margin-left: 220px;
             margin-top: 65px;
         }
@@ -46,11 +46,13 @@
 
         #topo img   {
             width: 45px;
-            margin-top: 30px;          
+            margin-top: 30px;    
+            margin-left: -85px;      
         }
 
         #topo #carrinho   {
             width: 70px;
+           margin-left: 1px;
             
         }
 
@@ -104,6 +106,34 @@
                 
             }
 
+            a   {
+                color: rgb(187, 19, 19);
+                display: inline;    
+                font-family: 'Lobster', 'cursive'; 
+                font-size: 47px;
+                margin-left: 100px;
+                
+               
+            }
+
+            a:hover {
+                color: rgb(192, 74, 74);
+                transition-duration: 0.5s;
+            }
+
+            button  {
+                margin-top: 40px;
+                padding: 10px 20px;
+                margin-bottom: 20px;
+                font-size: 16px;
+                background-color: #6cb3cf;
+                border-radius: 30px;
+                
+            }
+
+            #finalizarcompra    {
+                margin-left: 0px;
+            }
             
 
           
@@ -114,7 +144,9 @@
     <div id="topo">
       
            
-                <h1>Good Smell</h1>
+                <a href="layout.html">
+                    Good Smell
+                </a>
            
                  <input type="text">
                  <a href=""><img src="setaproximo.jpg" alt="Procurar"></a>
@@ -163,11 +195,14 @@
                         
         
                     </tr>
-                    
-                    
+           
                 </table>
             </div>
-    </center>
+        </center>
+
+            <center>
+                <a href="layout.html" id="finalizarcompra"><button>Finalizar compra</button></a>
+            </center>
 
   
 
